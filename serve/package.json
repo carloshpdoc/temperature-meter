@@ -1,0 +1,23 @@
+{
+  "name": "serve",
+  "version": "1.0.0",
+  "description": "serve socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "socket",
+    "serve",
+    "mqtt",
+    "iot"
+  ],
+  "author": "carloshpdoc",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "mqtt": "^2.2.1",
+    "redis": "^2.6.5",
+    "socket.io": "^1.7.2"
+  }
+}

@@ -1,0 +1,8 @@
+client/node_modules/
+serve/node_modules/
+serve/.env
+blank/node_modules/
+blank/platforms/
+blank/plugins/
+.idea/
+.DS_Store

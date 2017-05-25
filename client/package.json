@@ -1,0 +1,20 @@
+{
+  "name": "wsproject",
+  "version": "1.0.0",
+  "description": "test socke for app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "socket",
+    "iot",
+    "js"
+  ],
+  "author": "carloshpdoc",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.7.2"
+  }
+}

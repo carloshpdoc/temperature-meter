@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperatura</title>
+</head>
+<body>
+<script src="/socket.io/socket.io.js "></script>
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script>
+
+     var socket = io.connect('http://localhost:3001');
+     socket.on('temp', function (data) {
+         console.log(data);
+         $('#returntemp').html(data.message);
+     });
+
+</script>
+<table class="tablegv" style="width: 220px;">
+    <tbody>
+    <tr class="tablegvHeader">
+        <td colspan="2"><center>Servidores</center></td>
+    </tr>
+    <tr>
+        <td>Temperatura</td>
+        <td id="returntemp"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
