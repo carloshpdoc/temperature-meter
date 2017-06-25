@@ -5,9 +5,9 @@
 #include <PubSubClient.h>
 
 //Constants
-const char* ssid = "****";
-const char* password = "pass";
-const char* mqtt_server = "SeuBroke";
+const char* ssid = "yourSSIDNetwork";
+const char* password = "Password";
+const char* mqtt_server = "yourBroker";
 
 #define DHTPIN 4     // what pin we're connected to
 #define DHTTYPE DHT22   // DHT 22 
