@@ -2,5 +2,5 @@
 
 ### Vou explicar passo a passo a parte: Embarcado , servidor de Mqtt, Socket, Web e App. [Palestra](https://goo.gl/meh3Vi)
 
-#### Em breve o passa a passa
+#### Em breve o passo a passo
 Se gostou, deixa uma star, isso nos incentiva a dar um gás no projeto =D
